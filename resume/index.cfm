@@ -1,4 +1,6 @@
-<cfset PageTitle	= "Résumé " />
+<cfset PageTitle	= "Resume" />
+<cfset description = "Resume page for Sheen Mathew Justin. A Senior API Architect and Full Stack Web Developer." />
+
 <cfinclude template="/templates/header.cfm" />
 <style>
 	article ul {
@@ -25,8 +27,8 @@
 </style>
 
 <article>
-	<h1>Résumé</h1>
-	<date>2015 – Present</date>
+	<h1>Resume</h1>
+	<h2><date>2015 - Present</date></h2>
 	<h2>Project: SBA Capital Access Financial System (SBA CAFS)</h2>
 	<h3>
 		<ul>
@@ -43,7 +45,7 @@
 		<li>Debugging, troubleshooting and maintaining the large and extremely complex CAFS code base written in various languages, including Oracle DB, ColdFusion, JQuery, and Java.</li>
 		<li>Working with SBA supervisors and product owners to consolidate business requirements and translate them into defined objectives for the team to work on using Agile (SCRUM) methodology</li>
 		<li>Evaluating new and emerging software and best practices to see how they can be integrated into the CAFS system.</li>
-		<li>Training new hires to familiarize them with the project’s design and coding philosophy to ensure their code is in compliance with federal regulations and policies as well as the SBA’s Standard Operating Procedures (SOPs).</li>
+		<li>Training new hires to familiarize them with the project's design and coding philosophy to ensure their code is in compliance with federal regulations and policies as well as the SBA's Standard Operating Procedures (SOPs).</li>
 	</ul>
 
 	<h4>Accomplishments</h4>

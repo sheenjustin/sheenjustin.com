@@ -36,7 +36,7 @@
 		<header>
 			<nav aria-label="Top Navigation">
 				<a href="/">Home</a>
-				<a href="/resume/">Résumé</a>
+				<a href="/resume/">Resume</a>
 				<!--- <a href="/projects/">Projects</a>
 				<a href="/contact/">Contact</a> --->
 			</nav>
