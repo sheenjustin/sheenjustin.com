@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="256px" height="256px">
    <style>
       text {
-         font-weight: bold;
-         font-size: 400px;
          font-family: 'Nirmala UI';
          fill: #66d9ef;
          stroke-width: 0.87505;
+         font-weight: bold;
+         font-size: 310px;
       }
    </style>
-   <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">ജ</text>
+   <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle">ജ</text>
 </svg>
