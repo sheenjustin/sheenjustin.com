@@ -5,7 +5,7 @@
 <html lang="en">
 	<head>
 		<title>#PageTitle#</title>
-		<link rel="icon" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
 
 		<cfinclude template="/css/index.cfm" />
 
