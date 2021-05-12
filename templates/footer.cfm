@@ -1,49 +1,41 @@
 		</main>
 		<footer>
 			<style>
+
 				footer {
 					position: relative;
 				}
+
 				.scroll {
-					background: none;
-					color: inherit;
+					display: none;
 					border: none;
 					padding: 0;
 					font: inherit;
 					outline: inherit;
-					background-color: hsla(70,8.1%,2.5%, 30%);
-
-					border-radius: 1em;
+ 
+					background-color: hsla(70,8.1%,2.5%, 40%);
+					color: var(--clr-blue);
 
 					position: fixed;
 					bottom: 2.5em;
-					/*top: calc(-50% + -1em);*/
 					right: calc(50% - 500px);
-					/*transform: translateX(-50%);*/
 
 					width: 5em;
 					height: 5em;
 
-					display: grid;
+					border-radius: 1em;
 
-					text-align: center;
-					
 					place-items:center;
-					font-weight: bold;
 
-					vertical-align: center;
-
-					display: none;
 					cursor: pointer;
-					color: #66D9EF;
 				}
 
 				.scroll:hover, .scroll:focus {
-					background-color: hsl(70,8.1%,8.5%);
+					background-color: var(--clr-hover);
 				}
 
 				.scroll:focus {
-					outline: 3px solid #FD971F;
+					outline: 3px solid var(--clr-orange);
 				}
 
 			</style>
