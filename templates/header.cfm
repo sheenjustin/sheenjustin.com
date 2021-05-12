@@ -23,7 +23,7 @@
 		<meta name="twitter:title"			content="#PageTitle#" />
 		<meta name="twitter:description"	content="#description#" />
 		<meta name="twitter:image"			content="https://sheenjustin.com/img/headshot2.avif" />
-		<meta name="twitter:image:alt"		content="Sheen Justin wearing a suit standing next to a Citroen">
+		<meta name="twitter:image:alt"		content="Sheen Justin wearing a suit standing next to a Citroen" />
 		<meta name="twitter:card"			content="summary_large_image" />
 
 		<cfif CGI.SCRIPT_NAME eq '/'>
