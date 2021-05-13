@@ -7,8 +7,8 @@
 		<title>#PageTitle#</title>
 		<link rel="icon"				href="/favicon.svg"	type="image/svg+xml" sizes="any" />
 		<link rel="mask-icon"			href="/favicon.svg"	type="image/svg+xml" color="##F92672" />
-		<link rel="manifest" 			href="manifest.json">
-		<link rel="apple-touch-icon"	href="apple-touch-icon.png" />
+		<link rel="manifest" 			href="/manifest.json">
+		<link rel="apple-touch-icon"	href="/apple-touch-icon.png" />
 
 		<cfinclude template="/css/index.cfm" />
 

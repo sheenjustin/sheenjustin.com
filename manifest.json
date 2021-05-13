@@ -3,7 +3,8 @@
     "short_name": "Sheen",
     "icons": [{
         "src": "google-touch-icon.png",
-        "sizes": "512x512"
+        "sizes": "512x512",
+        "purpose": "any maskable"
     }],
     "background_color": "#272822",
     "theme_color": "#F92672",
