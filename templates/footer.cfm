@@ -1,45 +1,5 @@
 		</main>
 		<footer>
-			<style>
-
-				footer {
-					position: relative;
-				}
-
-				.scroll {
-					display: none;
-					border: none;
-					padding: 0;
-					font: inherit;
-					outline: inherit;
- 
-					background-color: hsla(70,8.1%,2.5%, 40%);
-					color: var(--clr-blue);
-
-					position: fixed;
-					bottom: 2.5em;
-					right: calc(50% - 500px);
-
-					width: 5em;
-					height: 5em;
-
-					border-radius: 1em;
-
-					place-items:center;
-
-					cursor: pointer;
-				}
-
-				.scroll:hover, .scroll:focus {
-					background-color: var(--clr-hover);
-				}
-
-				.scroll:focus {
-					outline: 3px solid var(--clr-orange);
-				}
-
-			</style>
-
 			<button id="btm-scroll" class="scroll btm" tabIndex="0">
 				<span class="sr-only">Scroll to Bottom</span>
 				<svg class="svg"><title>Scroll arrow</title>
@@ -75,6 +35,5 @@
 				</svg>
 			</button>
 		</footer>
-		
 	</body>
 </html>

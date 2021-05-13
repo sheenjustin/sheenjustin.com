@@ -5,6 +5,7 @@
 <html lang="en">
 	<head>
 		<title>#PageTitle#</title>
+		
 		<link rel="icon"				href="/favicon.svg"	type="image/svg+xml" sizes="any" />
 		<link rel="mask-icon"			href="/favicon.svg"	type="image/svg+xml" color="##F92672" />
 		<link rel="manifest" 			href="/manifest.json">

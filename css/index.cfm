@@ -48,7 +48,8 @@
 		font-family:	'Noto Sans', sans-serif;
 		text-align:		left;
 		color:			var(--clr-magenta);
-
+		font-variant: small-caps;
+		
 		padding:		0;
 		margin:			0;
 
@@ -60,7 +61,6 @@
 
 	h1 {
 		font-size: 36px;
-		font-variant: small-caps;
 		color: var(--clr-magenta);
 		text-align: center;
 		width: 100%;
@@ -123,9 +123,6 @@
 
 		display: grid;
 		grid-template-rows: auto 1fr auto;
-		
-		scrollbar-width: none;
-		-moz-scrollbars-none;
 	}
 
 	body::-webkit-scrollbar {
@@ -241,6 +238,7 @@
 		
 		place-items: center;
 		vertical-align: middle;
+		position: relative;
 	}
 
 	footer nav {
@@ -270,6 +268,34 @@
 </style>
 
 <style>
+	article ul {
+		margin-top: 0;
+
+	}
+	article li {
+		list-style: none;
+		position: relative;
+		padding: .25rem 0rem;
+	}
+	article	li:before {
+		content: '\276F';
+		position: absolute;
+		left: -2rem;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	article h2 {
+		text-align: center;
+	}
+
+	article h4 {
+		text-align: center;
+		padding-top: 2rem;
+	}
+</style>
+
+<style>
 	.svg {
 		width: 34px;
 		height: 34px;
@@ -292,7 +318,39 @@
 
 		overflow: hidden;
 		position: absolute;
-	} 
+	}
+
+	.scroll {
+		display: none;
+		border: none;
+		padding: 0;
+		font: inherit;
+		outline: inherit;
+
+		background-color: hsla(70,8.1%,2.5%, 40%);
+		color: var(--clr-blue);
+
+		position: fixed;
+		bottom: 2.5em;
+		right: calc(50% - 500px);
+
+		width: 5em;
+		height: 5em;
+
+		border-radius: 1em;
+
+		place-items:center;
+
+		cursor: pointer;
+	}
+
+	.scroll:hover, .scroll:focus {
+		background-color: var(--clr-hover);
+	}
+
+	.scroll:focus {
+		outline: 3px solid var(--clr-orange);
+	}
 </style>
 
 <style>

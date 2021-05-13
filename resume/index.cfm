@@ -1,31 +1,7 @@
 <cfset PageTitle	= "Resume" />
-<cfset description = "Resume page for Sheen Mathew Justin. A Senior API Architect and Full Stack Web Developer." />
+<cfset description	= "Resume page for Sheen Mathew Justin. A Senior API Architect and Full Stack Web Developer." />
 
 <cfinclude template="/templates/header.cfm" />
-<style>
-	article ul {
-		margin-top: 0;
-
-	}
-	article li {
-		list-style: none;
-		position: relative;
-		padding: .25rem 0rem;
-	}
-	article	li:before {
-		content: '\276F';
-		position: absolute;
-		left: -2rem;
-		top: 50%;
-		transform: translateY(-50%);
-	}
-
-	article h4 {
-		text-align: center;
-		padding-top: 2rem;
-	}
-</style>
-
 <article>
 	<h1>Resume</h1>
 	<h2><date>2015 - Present</date></h2>
@@ -47,9 +23,7 @@
 		<li>Evaluating new and emerging software and best practices to see how they can be integrated into the CAFS system.</li>
 		<li>Training new hires to familiarize them with the project's design and coding philosophy to ensure their code is in compliance with federal regulations and policies as well as the SBA's Standard Operating Procedures (SOPs).</li>
 	</ul>
-
 	<h4>Accomplishments</h4>
-
 	<ul>
 		<li>Involved in the implementation and integration of the Paycheck Protection Program (PPP), which has distributed over $400 Billion to businesses in America.</li>
 		<li>Created an API that the SBA used to lock down potentially fraudulent loans while they were investigated further.</li>
@@ -62,7 +36,5 @@
 		<li>Designed and modernized the look and feel of the CAFS system landing page which incorporated General Services Administration (GSA) web design standards.</li>
 		<li>Planned, designed, and implemented an application that allows borrowers and lenders to connect using user selected criteria.</li>
 	</ul>
-
 </article>
-
 <cfinclude template="/templates/footer.cfm" />
