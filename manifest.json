@@ -1,0 +1,11 @@
+{
+    "name": "Sheen Justin",
+    "short_name": "Sheen",
+    "icons": [{
+        "src": "google-touch-icon.png",
+        "sizes": "512x512"
+    }],
+    "background_color": "#272822",
+    "theme_color": "#F92672",
+    "display": "fullscreen"
+}
