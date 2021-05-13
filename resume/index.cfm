@@ -5,16 +5,17 @@
 <article>
 	<h1>Resume</h1>
 	<h2>2015 - Present</h2>
-	<h3>Project: SBA Capital Access Financial System (SBA CAFS)</h2>
+	<h3>Project: SBA Capital Access Financial System (SBA CAFS)</h3>
 	<ul>
 		<li>Current Position: IT Specialist (Data Management) GS-2210-14</li>
 		<li>Current Employer: U.S. Small Business Adminstration (Temporary Federal Appointment)</li>
-		<li>Contract previously awarded to:</li>
-		<ul>
-			<li>LeapPoint LLC</li>
-			<li>Alpha Omega Integration LLC</li>
-			<li>Trusted Mission Solutions Inc.</li>
-		</ul>
+		<li class="nested">Contract previously awarded to:
+			<ul>
+				<li>LeapPoint LLC</li>
+				<li>Alpha Omega Integration LLC</li>
+				<li>Trusted Mission Solutions Inc.</li>
+			</ul>	
+		</li>
 	</ul>
 	<h3>Duties</h3>
 	<ul>

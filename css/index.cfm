@@ -277,12 +277,17 @@
 		position: relative;
 		padding: .25rem 0rem;
 	}
-	article	li:before {
+	article	li::before {
 		content: '\276F';
 		position: absolute;
 		left: -2rem;
 		top: 50%;
 		transform: translateY(-50%);
+	}
+
+	li.nested::before {
+		transform: translateY(0%);
+		top: .22rem;
 	}
 
 	article h2 {
