@@ -5,7 +5,10 @@
 <html lang="en">
 	<head>
 		<title>#PageTitle#</title>
-		<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+		<link rel="icon"				href="/favicon.svg"	type="image/svg+xml" sizes="any" />
+		<link rel="mask-icon"			href="/favicon.svg"	type="image/svg+xml" color="##F92672" />
+		<link rel="manifest" 			href="manifest.json">
+		<link rel="apple-touch-icon"	href="apple-touch-icon.png" />
 
 		<cfinclude template="/css/index.cfm" />
 
@@ -13,6 +16,8 @@
 
 		<meta name="description"			content="#description#" />
 		<meta name="viewport"				content="width=device-width, initial-scale=1.0" />
+
+		<meta name="theme-color" content="##272822" />
 
 		<meta property="og:title"			content="#PageTitle#" />
 		<meta property="og:description"		content="#description#" />
