@@ -69,11 +69,11 @@
 		
 	}
 
-	h2, h3{
+	h2{
 		color: var(--clr-orange);
 	}
 
-	h4 {
+	h3 {
 		font-size: 24px;
 		padding: 0;
 		padding: .5rem;
@@ -289,7 +289,7 @@
 		text-align: center;
 	}
 
-	article h4 {
+	article h3 {
 		text-align: center;
 		padding-top: 2rem;
 	}

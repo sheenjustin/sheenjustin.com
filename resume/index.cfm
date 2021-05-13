@@ -4,16 +4,19 @@
 <cfinclude template="/templates/header.cfm" />
 <article>
 	<h1>Resume</h1>
-	<h2><date>2015 - Present</date></h2>
-	<h2>Project: SBA Capital Access Financial System (SBA CAFS)</h2>
-	<h3>
+	<h2>2015 - Present</h2>
+	<h3>Project: SBA Capital Access Financial System (SBA CAFS)</h2>
+	<ul>
+		<li>Current Position: IT Specialist (Data Management) GS-2210-14</li>
+		<li>Current Employer: U.S. Small Business Adminstration (Temporary Federal Appointment)</li>
+		<li>Contract previously awarded to:</li>
 		<ul>
-			<li>Current Position: IT Specialist (Data Management) GS-2210-14</li>
-			<li>Current Employer: U.S. Small Business Adminstration (Temporary Federal Appointment)</li>
-			<li>(Contract formerly awarded to LeapPoint, Alpha Omega Integrated LLC, and Trusted Mission Solutions Inc.)</li>
+			<li>LeapPoint LLC</li>
+			<li>Alpha Omega Integration LLC</li>
+			<li>Trusted Mission Solutions Inc.</li>
 		</ul>
-	</h3>
-	<h4>Duties</h4>
+	</ul>
+	<h3>Duties</h3>
 	<ul>
 		<li>End to end web development using server-side scripting languages such as ColdFusion and PHP.</li>
 		<li>Designing, creating, and updating SOAP and REST APIs using ColdFusion, XML and JSON.</li>
@@ -23,7 +26,7 @@
 		<li>Evaluating new and emerging software and best practices to see how they can be integrated into the CAFS system.</li>
 		<li>Training new hires to familiarize them with the project's design and coding philosophy to ensure their code is in compliance with federal regulations and policies as well as the SBA's Standard Operating Procedures (SOPs).</li>
 	</ul>
-	<h4>Accomplishments</h4>
+	<h3>Accomplishments</h3>
 	<ul>
 		<li>Involved in the implementation and integration of the Paycheck Protection Program (PPP), which has distributed over $400 Billion to businesses in America.</li>
 		<li>Created an API that the SBA used to lock down potentially fraudulent loans while they were investigated further.</li>
